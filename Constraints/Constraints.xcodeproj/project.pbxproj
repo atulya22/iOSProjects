@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B10485F1B7B8C6E00FA37AD /* footer-background-min.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B10485D1B7B8C6E00FA37AD /* footer-background-min.jpg */; };
+		4B1048601B7B8C6E00FA37AD /* WatchKit-cover_640@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B10485E1B7B8C6E00FA37AD /* WatchKit-cover_640@2x.png */; };
 		4B8C4F761B79356900E33B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C4F751B79356900E33B03 /* AppDelegate.swift */; };
 		4B8C4F781B79356900E33B03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C4F771B79356900E33B03 /* ViewController.swift */; };
 		4B8C4F7B1B79356900E33B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8C4F791B79356900E33B03 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B10485D1B7B8C6E00FA37AD /* footer-background-min.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "footer-background-min.jpg"; sourceTree = "<group>"; };
+		4B10485E1B7B8C6E00FA37AD /* WatchKit-cover_640@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WatchKit-cover_640@2x.png"; sourceTree = "<group>"; };
 		4B8C4F701B79356900E33B03 /* Constraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Constraints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8C4F741B79356900E33B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B8C4F751B79356900E33B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 				4B8C4F791B79356900E33B03 /* Main.storyboard */,
 				4B8C4F7C1B79356900E33B03 /* Images.xcassets */,
 				4B8C4F7E1B79356900E33B03 /* LaunchScreen.xib */,
+				4B10485D1B7B8C6E00FA37AD /* footer-background-min.jpg */,
+				4B10485E1B7B8C6E00FA37AD /* WatchKit-cover_640@2x.png */,
 				4B8C4F731B79356900E33B03 /* Supporting Files */,
 			);
 			path = Constraints;
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B8C4F7B1B79356900E33B03 /* Main.storyboard in Resources */,
+				4B1048601B7B8C6E00FA37AD /* WatchKit-cover_640@2x.png in Resources */,
+				4B10485F1B7B8C6E00FA37AD /* footer-background-min.jpg in Resources */,
 				4B8C4F801B79356900E33B03 /* LaunchScreen.xib in Resources */,
 				4B8C4F7D1B79356900E33B03 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +419,7 @@
 				4B8C4F911B79356900E33B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B8C4F921B79356900E33B03 /* Build configuration list for PBXNativeTarget "ConstraintsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				4B8C4F941B79356900E33B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
